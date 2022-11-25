@@ -1,2 +1,2 @@
 User-agent: *
-Sitemap: http://igottabonner.ga/sitemap.xml
+Sitemap: http://powerprint.ga/sitemap.xml
