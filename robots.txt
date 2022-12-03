@@ -1,2 +1,2 @@
 User-agent: *
-Sitemap: http://powerprint.ga/sitemap.xml
+Sitemap: https://powerprint.ga/sitemap.xml
