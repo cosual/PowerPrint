@@ -20,6 +20,7 @@ header {
 	padding: 12px 0;
 	background-color: #66aa66;
 	align-items: center;
+	box-shadow: 0 1px 20px;
 }
 .hd {
 	justify-content: space-between;
