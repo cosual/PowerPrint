@@ -141,14 +141,6 @@ h1 {
 	display: inline-block;
 	max-width: 100%;
 }
-#screw {
-	position: absolute;
-	left: 1464px;
-	top: 80px;
-	max-width: 140px;
-	transform: rotate(240deg);
-	box-shadow: -10px -100px 60px rgba(0, 0, 0, 0.2);
-}
 footer {
 }
 .fd {
@@ -223,6 +215,21 @@ footer {
 	font-size: 18px;
 	font-weight: 500;
 }
+#screw {
+	position: absolute;
+	max-width: 80px;
+	transform: rotate(140deg);
+}
+@media screen and (min-width: 1500px) {
+	#screw {
+		position: absolute;
+		left: 1464px;
+		top: 80px;
+		max-width: 140px;
+		transform: rotate(240deg);
+		box-shadow: -10px -100px 60px rgba(0, 0, 0, 0.2);
+	}
+}
 @media screen and (max-width: 1140px) {
 	.hd {
 		padding-right: 20px;
@@ -243,11 +250,18 @@ footer {
 		align-items: center;
 	}
 }
+
 @media screen and (max-width: 470px) {
 	.mddd1,
 	.mddd2,
 	.mddd3,
 	.mddd4 {
 		font-size: 20px;
+	}
+	.hdrdt1 {
+		font-size: 18px;
+	}
+	#bg {
+		max-width: 240px;
 	}
 }
