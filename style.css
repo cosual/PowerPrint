@@ -216,11 +216,10 @@ footer {
 	font-weight: 500;
 }
 #screw {
-	position: absolute;
 	max-width: 80px;
 	transform: rotate(140deg);
 }
-@media screen and (min-width: 1500px) {
+@media screen and (min-width: 1600px) {
 	#screw {
 		position: absolute;
 		left: 1464px;
